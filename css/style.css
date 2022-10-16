@@ -1,0 +1,140 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sidebar {
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    background: white;
+    padding: 30px 15px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+body {
+    background: #F1F1F1;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.sidebar__inner {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    color: #2A86B1;
+    font-size: 60px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 55px;
+    margin-left: 15px;
+}
+
+.menu__link {
+    color: #939393;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.menu__link:hover {
+    color: #2A86B1;
+}
+
+.link__span {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.menu__list:nth-child(3) .menu__link {
+    font-size: 45px;
+}
+
+.menu__list:nth-child(4) .menu__link {
+    font-size: 45px;
+}
+
+.sidebar:hover {
+    width: 234px;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.banner__wrap {
+    margin: 30px 0;
+    height: 500px;
+    padding-left: 62px;
+    background: url(../img/bg.png) no-repeat center/cover white;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner__desc {
+    max-width: 332px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.desc__h {
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    color: #464748;
+}
+
+.desc__p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #696868;
+}
+
+.btn {
+    background: #3FA5D5;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: white;
+}
+
+.btn:hover {
+    background: #2A86B1;
+}
+
+.desc__btn {
+    padding: 7px 62px;
+}
