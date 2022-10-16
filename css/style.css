@@ -182,3 +182,76 @@ body {
 .card__btn{
     padding: 7px 64px;
 }
+
+.clone{
+    margin-bottom: 44px;
+}
+
+.clone__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.clone__news{
+    max-width: 825px;
+    width: 100%;
+}
+.news__h{
+    margin-bottom: 22px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #686868;
+}
+
+.news__post{
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545454;
+}
+
+.news__post:last-child{
+    margin: 0;
+}
+
+.service__card{
+    display: flex;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 255px;
+    width: 100%;
+}
+.service__card:last-child{
+    margin: 0;
+}
+
+.serv__h{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 17px;
+    text-align: justify;
+    color: #323232;
+    margin-bottom: 5px;
+}
+
+.serv__p{
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 94.5%;
+    color: #000000;
+}
