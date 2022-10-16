@@ -255,3 +255,40 @@ body {
     line-height: 94.5%;
     color: #000000;
 }
+
+.footer{
+    padding: 40px 0;
+    background: #3FA5D5;
+}
+
+.footer__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.contacts__link{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
